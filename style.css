@@ -1,0 +1,230 @@
+* {
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.url{
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+min-height: 100vh;
+
+background-image: url(
+    'file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/qwertyfolder/my images/360_F_550958748_OeGcRonEUNoVhd0wjd9zSEMhLFIGO9Bt.jpg'
+),
+linear-gradient(#751418cf, #00000072);
+background-size: contain;
+border: red solid 5px;
+}
+
+.wrapper {
+
+width: 65vmin;
+
+height: 70vmin;
+
+display: flex;
+
+overflow: hidden;
+
+flex-direction: column;
+
+justify-content: center;
+
+border-radius: 5px;
+
+background: #293447;
+
+box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+
+}
+
+.game-details {
+
+color: #B8C6DC;
+
+font-weight: 500;
+
+font-size: 1.2rem;
+
+padding: 20px 27px;
+
+display: flex;
+
+justify-content: space-between;
+border: red solid 3px;
+
+}
+
+.play-board {
+
+height: 100%;
+
+width: 100%;
+
+display: grid;
+
+background: #212837;
+
+grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+border: red solid 3px;
+}
+
+.play-board .food {
+
+background: #FF003D;
+
+}
+
+.play-board .head {
+
+background: #60CBFF;
+border: red double 1px;
+border-radius: 50%;
+
+}
+.play-board .neck {
+
+background: #60CBFF;
+
+}
+.play-board .chest {
+
+background: #60CBFF;
+
+}
+.play-board .belly {
+
+background: #60CBFF;
+
+}
+.play-board .waist {
+
+background: #60CBFF;
+
+}
+.play-board .tail {
+
+background: #60CBFF;
+border-radius:20px;
+
+}
+.controls {
+
+display: none;
+color: red;
+justify-content: space-between;
+border: red solid 2px;
+border-bottom: red solid 5px;
+
+}
+
+.controls i {
+
+padding: 25px 0;
+
+text-align: center;
+
+font-size: 1.3rem;
+
+color: #B8C6DC;
+
+width: calc(100% / 4);
+
+cursor: pointer;
+
+border-right: 1px solid #171B26;
+
+}
+
+@media screen and (max-width: 800px) {
+
+.wrapper {
+
+width: 90vmin;
+
+height: 115vmin;
+
+}
+
+.game-details {
+
+font-size: 1rem;
+
+padding: 15px 27px;
+
+}
+
+.controls {
+
+display: flex;
+
+}
+
+.controls i {
+
+padding: 15px 0;
+
+font-size: 1rem;
+
+}
+
+}
+.food{
+    border-radius: 50%;
+}
+/* header section */
+.asap{
+width: 100vw;
+    background-color: cadetblue;
+    border: orangered solid 2px;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    padding: 0px;
+}
+.span{
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+    font-style: italic;
+}
+.body{
+    background-color: aqua;
+}
+button{
+    margin-top:40vh;
+    margin-left: 35vw;
+    width: 150px;
+    height: 10vh;
+    border: red solid 3px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: blue;
+    
+}
+.a{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    text-animation: shine 10s;
+}
+button:hover{
+    color: white;
+    background-color: red;
+}
